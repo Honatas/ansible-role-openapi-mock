@@ -9,9 +9,3 @@
   ansible.builtin.unarchive:
     src: "{{ target_folder }}/{{ file_url | basename }}"
     dest: "{{ target_folder }}"
-
-- name: Add to PATH
-  when: ansible_env.PATH is not search(install_path)
-  copy:
-    dest: /etc/profile.d/custom-path.sh
-    content: 'PATH=$PATH:{{ install_path }}'
