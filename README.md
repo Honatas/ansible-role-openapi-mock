@@ -2,7 +2,7 @@ OpenAPI Mock Server - Ansible Role
 ==================================
 
 [![GitHub](https://img.shields.io/github/license/honatas/ansible-role-openapi-mock?style=plastic)](https://github.com/Honatas/ansible-role-openapi-mock/blob/master/LICENSE)
-[![Ansible Quality Score](https://img.shields.io/ansible/quality/48203?style=plastic)](https://galaxy.ansible.com/honatas/openjdk_ppa)
+[![Ansible Quality Score](https://img.shields.io/ansible/quality/60773?style=plastic)](https://galaxy.ansible.com/honatas/openjdk_ppa)
 [![coffee](https://img.shields.io/badge/buy%20me%20a-coffee-brown?style=plastic)](https://ko-fi.com/honatas "Buy me a coffee")  
 
 Installs any version of OpenAPI Mock Server from [Github](https://github.com/muonsoft/openapi-mock)  
