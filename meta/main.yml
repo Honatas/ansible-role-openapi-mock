@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: openapi-mock
+  role_name: openapi_mock
   author: Jonatas de Moraes Junior
   description: Installs any version of @muonsoft/openapi-mock from Github (https://github.com/muonsoft/openapi-mock)
 
