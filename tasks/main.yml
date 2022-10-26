@@ -1,7 +1,7 @@
 ---
 - name: Download
   ansible.builtin.get_url:
-    url: "{{ ufile_urlrl }}"
+    url: "{{ file_url }}"
     dest: "{{ target_folder }}"
     checksum: "md5:{{ file_url }}.md5"
 
