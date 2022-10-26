@@ -1,0 +1,4 @@
+---
+download_url: https://github.com/muonsoft/openapi-mock/releases/download
+version: 0.3.3
+target_folder: /opt
