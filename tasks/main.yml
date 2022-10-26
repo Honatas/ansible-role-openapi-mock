@@ -2,10 +2,10 @@
 - name: Download
   ansible.builtin.get_url:
     url: "{{ file_url }}"
-    dest: "{{ target_folder }}"
+    dest: "{{ install_path }}"
     # checksum: "md5:{{ file_url }}.md5"
 
 - name: Unpack
   ansible.builtin.unarchive:
-    src: "{{ target_folder }}/{{ file_url | basename }}"
-    dest: "{{ target_folder }}"
+    src: "{{ install_path }}/{{ file_url | basename }}/"
+    dest: "{{ install_path }}"
