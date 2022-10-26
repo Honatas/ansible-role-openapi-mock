@@ -1,17 +1,14 @@
 ---
+- name: Ensure target folder exists
+  file:
+    dest: "{{ install_path }}"
+    state: directory
+
 - name: Download
   ansible.builtin.get_url:
     url: "{{ file_url }}"
     dest: "{{ install_path }}"
     # checksum: "md5:{{ file_url }}.md5"
-
-- name: Ensure target folder exists
-  file:
-    dest: "{{ install_path }}"
-    state: directory
-    mode: '775'
-    owner: vagrant
-    group: vagrant
 
 - name: Unpack
   ansible.builtin.unarchive:
